@@ -1,0 +1,84 @@
+.carousel-caption{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    left:0;
+    bottom:0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.tem .col-lg-4{
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section-divider{
+    margin:3rem;
+}
+
+.footer-section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+@media (min-width:1200px)
+{
+    .feature-heading{
+        margin-top: 10rem;
+    }
+}
+
+@media(max-width:540px)
+{
+    .carouselImg{
+        display: none;
+    }
+
+    .team{
+        margin-top: 2rem;
+    }
+}
+
+#mine{
+    border: 2px solid ;
+    border-radius: 5px;
+    padding-top: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#background{
+    width: 90vw;
+    height: 50vh;
+}
+
+/*============ FORM ============*/
+
+input{
+    width: 100%;
+    height: 25px ;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65%;
+    margin: 12px 0;
+    border: 1px solid #929292;
+        
+}
+
+.button{
+    display: block;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
